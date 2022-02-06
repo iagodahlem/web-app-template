@@ -1,6 +1,9 @@
 {
   "private": true,
-  "source": "src/index.html",
+  "source": [
+    "src/index.html",
+    "src/design-system.html"
+  ],
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
