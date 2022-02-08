@@ -1,38 +1,22 @@
-# web-app-template
+# Front End Challenge
+- Gist link:\
+https://gist.github.com/iagodahlem/781156f9b1d31dc31a9605f9ca9e81e7#html
+- We will be creating a simple landing page for the Trainee program. Implemented with BEMCSS for the classes nomenclature, and ITCSS for the structure. The app is a pure HTML and CSS web app built with Parcel, the boilerplate can be found here: https://github.com/iagodahlem/web-app-template
 
-Web app template with Parcel.
+## Task 1
+- ...
 
-## Requirements
+## Task 2
+- ...
 
-- Node v17.4.0
-- Yarn v1.22.17
+## Task 3
+- ...
 
-## Install
+## Task 4
+- ...
 
-First install all the dependencies:
+## Task 5
+- ...
 
-```sh
-yarn install
-```
-
-## Usage
-
-Then, run the development server:
-
-```sh
-yarn start
-```
-
-Open http://localhost:1234 with your browser to see the result.
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## License
-
-[MIT License](http://iagodahlem.mit-license.org/) © Iago Dahlem
+## Bonus
+- ...
