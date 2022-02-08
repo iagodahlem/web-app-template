@@ -1,2 +1,4 @@
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
+@import 'settings/_colors.css';
+@import 'settings/_defaults.css';

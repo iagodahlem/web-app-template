@@ -1,0 +1,7 @@
+:root {
+  --text-font-size:     15px !default;
+  --title-font-size:    20px !default;
+  --default-line-height:   1.25 !default;
+
+  --font-montserrat:       'Montserrat', sans-serif;
+}
