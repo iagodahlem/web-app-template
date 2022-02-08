@@ -1,0 +1,16 @@
+:root{
+  --light_yellow: #ffe21d;
+  --mid_yellow: #ffd21d;
+  --light_blue: #24afff;
+  --mid_blue: #248bff;
+  --mid_pink: #f26c6c;
+  --mid_green: #27b667;
+  --white: #FFF;
+  --standard_measure: 1rem;
+  --bigger_measure:1.25rem;
+  --small_padding: 0.5rem 1rem 0.5rem;
+  --bold: 600;
+  --standard_font: 'Montserrat', sans-serif;
+
+}
+
