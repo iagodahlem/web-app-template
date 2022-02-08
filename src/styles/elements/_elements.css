@@ -1,0 +1,45 @@
+/* Lists */
+ul {
+  list-style: square outside;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+/* Links */
+a {
+  color: darkblue;
+}
+
+ a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: salmon;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  text-decoration: underline;
+} 
