@@ -43,12 +43,12 @@
 .button--blue--inactive{
   border-color: var(--light_blue);
   background-color: var(--light_blue);
-  opacity: 0.6;
+  opacity: var(--standard_opacity);
 }
 .button--yellow--inactive{
   border-color: var(--light_yellow);
   background-color: var(--light_yellow);
-  opacity: 0.6;
+  opacity: var(--standard_opacity);
 }
 .button--yellow--inactive:hover {
   cursor: not-allowed;
