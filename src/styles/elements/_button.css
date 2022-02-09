@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} 
 .container__button{
   padding:var(--small_padding); 
   border-radius: var(--standard_measure);
@@ -14,9 +14,18 @@
   border: 2px solid;
   border-color: var(--light_blue);
 }
-
+.container__button--yellow{
+  background-color:var(--white);
+  border: 2px solid;
+  border-color: var(--light_yellow);
+}
+.container__button--yellow:hover{
+  transition:var(--standard_transition);
+  background-color: var(--light_yellow);
+  font-weight:var(--bold);
+}
 .container__button--blue:hover{
-  transition:0.5s;
+  transition:var(--standard_transition);
   background-color: var(--light_blue);
   font-weight:var(--bold);
   color: var(--white);
@@ -30,9 +39,13 @@
 }
 
 .container__button:focus{
-  color: var(--white);
   font-weight: var(--bold);
 }
 .container__button--blue:focus{
+  color: var(--white);
   background-color: var(--mid_blue);
+}
+.container__button--yellow:focus{
+  background-color: var(--mid_yellow);
+  
 }
