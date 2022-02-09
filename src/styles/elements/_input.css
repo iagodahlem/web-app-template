@@ -8,10 +8,8 @@
 }
 
 .input--blue:focus{
-  opacity: var(--standard_opacity);
-  background-color: var(--light_blue);
+  border: 2px solid var(--light_blue);
 }
 .input--yellow:focus{
-  opacity: var(--standard_opacity);
-  background-color: var(--light_yellow)
+  border: 2px solid var(--light_yellow)
 }
