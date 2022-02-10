@@ -40,20 +40,18 @@
   font-weight: var(--bold);
 }
 
-.button--blue--disabled{
+.button--blue:disabled{
   border-color: var(--light_blue);
   background-color: var(--light_blue);
   opacity: var(--standard_opacity);
+  cursor: not-allowed;
+  color: #bbbb;
 }
-.button--yellow--disabled{
+.button--yellow:disabled{
   border-color: var(--light_yellow);
   background-color: var(--light_yellow);
   opacity: var(--standard_opacity);
-}
-.button--yellow--inactive:hover {
   cursor: not-allowed;
 }
-.button--blue--inactive:hover {
-  cursor: not-allowed;
-}
+
 
