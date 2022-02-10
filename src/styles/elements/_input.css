@@ -1,0 +1,15 @@
+.input{
+  padding:var(--small_padding); 
+  border-radius: var(--standard_measure);
+  margin: var(--standard_measure);
+  background-color: var(--white);
+  border-style: none;
+  outline: none;
+}
+
+.input--blue:focus{
+  border: 2px solid var(--light_blue);
+}
+.input--yellow:focus{
+  border: 2px solid var(--light_yellow)
+}

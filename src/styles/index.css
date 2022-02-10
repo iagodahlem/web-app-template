@@ -1,2 +1,4 @@
-@import 'generic/settings/_settings.css';
+@import 'settings/_settings.css';
 @import 'generic/_resets.css';
+@import '/elements/_button.css';
+@import '/elements/_input.css';
