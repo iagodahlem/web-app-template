@@ -1,10 +1,10 @@
 .button__custom{
   border-radius: 30px;
-  background: var(--primary-bg-color);
+  background: none;
+  color: var(--primary-bg-color);
   border: solid 2px var(--yellow-1);
   width: 100px;
   height: 45px;
-  margin:var(--general-margin)
 }
 .button__custom:hover{
   background: var(--yellow-1);

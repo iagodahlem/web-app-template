@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: var(--general-padding);
+  position:absolute;
+  width: 100%;
+}
+.header-links {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
