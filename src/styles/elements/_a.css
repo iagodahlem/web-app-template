@@ -1,0 +1,5 @@
+a {
+  font-weight: 900;
+  font-size: var(--main-font-size);
+  color: var(--primary-bg-color);
+}
