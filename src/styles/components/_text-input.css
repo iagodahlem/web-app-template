@@ -1,0 +1,25 @@
+.input__text{
+  border-radius: 30px;
+  width: 200px;
+  height: 30px;
+  border: 0;
+  outline: none;
+  margin:var(--general-margin)
+}
+.input__text:focus{
+  border: solid 2px var(--secondary-bg-color);
+}
+.input__text:disabled{
+  cursor:default;
+}
+
+.input__text.error {
+  background-color: var(--alert-color);
+}
+.input__text.successful {
+  background-color: var(--successful-color);
+}
+.input__text.attention{
+  background-color: var(--attention-color);
+}
+

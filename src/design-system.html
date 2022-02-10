@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <title>Design System</title>
-  </head>
-  <body>
-    <h1>Design System</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <title>Design System</title>
+</head>
+
+<body>
+  <h1>Design System</h1>
+  <div class="buttons">
+    <button class="button__custom">Button</button>
+    <button disabled active class="button__custom">Button</button>
+  </div>
+  <div class="inputs">
+    <input type="text" class="input__text" placeholder="Type anything"></input>
+    <input disabled type="text" class="input__text" placeholder="Input disabled"></input>
+    <div class="inputs__status">
+      <input type="text" class="input__text successful" placeholder="Input successful"></input>
+      <input type="text" class="input__text error" placeholder="Input Error"></input>
+      <input type="text" class="input__text attention" placeholder="This needs your attention"></input>
+    </div>
+  </div>
+</body>
+
 </html>
