@@ -40,12 +40,12 @@
   font-weight: var(--bold);
 }
 
-.button--blue--inactive{
+.button--blue--disabled{
   border-color: var(--light_blue);
   background-color: var(--light_blue);
   opacity: var(--standard_opacity);
 }
-.button--yellow--inactive{
+.button--yellow--disabled{
   border-color: var(--light_yellow);
   background-color: var(--light_yellow);
   opacity: var(--standard_opacity);
